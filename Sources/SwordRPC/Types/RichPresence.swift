@@ -22,8 +22,8 @@ public struct RichPresence: Encodable {
 
 extension RichPresence {
   public struct Timestamps: Encodable {
-    public var end: Date? = nil
-    public var start: Date? = nil
+    public var end: Int? = nil
+    public var start: Int? = nil
   }
   
   public struct Assets: Encodable {
